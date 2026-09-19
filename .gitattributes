@@ -1,0 +1,15 @@
+# Default behavior
+# This file is used to override language statistics
+# Exclude build artifacts
+public/**/*.html linguist-vendored
+package-lock.json linguist-generated
+
+*.min.css linguist-generated
+build/* linguist-vendored
+*.yaml linguist-detectable=false
+go.sum linguist-generated
+
+src/**/*.js linguist-detectable
+**/*.js linguist-detectable
+*.gif binary
+*.jpg binary
