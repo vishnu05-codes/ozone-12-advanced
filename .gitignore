@@ -1,0 +1,7 @@
+.next/
+*.log
+dist/
+.env
+yarn-error.log*
+.env.local
+_site/
